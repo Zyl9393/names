@@ -11,7 +11,11 @@ const maxLookupSubstringRuneCount = 3
 const supportRemove = true
 people := names.New(maxLookupSubstringRuneCount, supportRemove)
 
-people.Add("amelia", "james", "maxim", "luke", "sam")
+people.Add("amelia")
+people.Add("james")
+people.Add("maxim")
+people.Add("luke")
+people.Add("sam")
 result := people.Find("am", nil) // []string{"amelia", "james", "sam"}
 people.Contains("james") // true
 

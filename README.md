@@ -26,7 +26,7 @@ people.Contains("james") // false
 
 ## Sorting
 
-Often after querying for matches, one may want to sort the result alphabetically. To do this, see functions `SortCIFunc`, `NewSortUXFunc` and `NewSortUXCIFunc` for use with `slices.Sortfunc()` on string slices returned from `Find()`.
+Often after querying for matches, one may want to sort the result alphabetically. To do this, see functions `SortCIFunc`, `NewSortUXFunc` and `NewSortUXCIFunc` for use with `slices.SortFunc()` on string slices returned from `Find()`.
 
 ## Technical details
 
